@@ -10,23 +10,28 @@
         body{
             background-color: hsl(212, 45%, 89%);
         }
-        .mainStuff{ 
+        .mainContainer{
             display: flex;
-            width: 20%;
-            display: flex;
-            justify-content: center; 
+            justify-content: center;
         }
-        .mainBody{
-            align-items: center;
+        .mainStuff{  
+            width: 20%;
+            display: flex; 
+            margin-top: auto; 
+        }
+        .mainBody{ 
             background-color: hsl(0, 0%, 100%);
+            border-radius: 4%;
         }
         section{
             margin: auto;
             padding: 3%;
         }
         .ImgSection{  
+            display: flex;
+            justify-content: center;
             margin: auto;
-            padding: 0%;
+            padding: 5% 0% 5% 0%;
         }
         .message{
             color: hsl(220, 15%, 55%);
@@ -34,20 +39,22 @@
     </style>
 </head>
 <body>
-    <main class="mainStuff">
-        <section class="mainBody">
-            <section class="ImgSection">
-                <img src="images/image-qr-code.png" alt="QR Code" style="width: 80%; height: 80%;">
-            </section>
-            <section>
-                <header>
-                    Improve your front-end skills by building projects
-                </header>
-            </section>
-            <section>
-                <div class="message">
-                    Scan the QR code to visit Frontend Mentor and take your codeing skills to the next level
-                </div>
+    <main class="mainContainer">
+        <section class="mainStuff">
+            <section class="mainBody">
+                <section class="ImgSection">
+                    <img src="images/image-qr-code.png" alt="QR Code" style="width: 90%; height: 90%;">
+                </section>
+                <section>
+                    <header>
+                        Improve your front-end skills by building projects
+                    </header>
+                </section>
+                <section>
+                    <div class="message">
+                        Scan the QR code to visit Frontend Mentor and take your codeing skills to the next level
+                    </div>
+                </section>
             </section>
         </section>
     </main>
